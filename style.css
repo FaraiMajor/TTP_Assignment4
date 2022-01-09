@@ -19,8 +19,18 @@ header {
     border: none;
 }
 
+.para {
+    text-align: center;
+    margin: 20px auto;
+    padding: 10px;
+    width: fit-content;
+    background-color: rgb(156, 180, 111);
+}
+
 .btn-section {
-    margin: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     font-size: 20px;
 }
 
@@ -30,6 +40,7 @@ header {
     border: yellowgreen solid;
     border-radius: 5px;
     font-weight: bold;
+    margin-right: 5px;
 }
 
 #btn1-el:hover {
@@ -44,6 +55,7 @@ header {
     border: yellowgreen solid;
     border-radius: 5px;
     font-weight: bold;
+    margin-left: 5px;
 }
 
 #btn2-el:hover {
@@ -55,9 +67,9 @@ header {
 .hover-el {
     background-color: gold;
     width: fit-content;
-    padding: 10px 15px;
+    padding: 10px;
     border-radius: 5px;
-    margin: 50px 20px;
+    margin: 50px 34%;
 }
 
 .hover-el:hover {
@@ -67,7 +79,7 @@ header {
 
 .form {
     width: 40%;
-    margin: 15px;
+    margin: 15px auto;
     padding: 20px;
     border-radius: 5px;
     background-color: #f2f2f2;
@@ -103,9 +115,58 @@ header {
     width: fit-content;
     padding: 10px 15px;
     border-radius: 5px;
-    margin: 50px 20px;
+    margin: 50px auto;
 }
 
 input[type="text"]::placeholder {
     padding-left: 15px;
+}
+
+#volume-title {
+    text-align: center;
+    margin: 20px auto;
+    padding: 10px;
+    width: fit-content;
+    background-color: rgb(156, 180, 111);
+}
+
+.radius_form {
+    width: fit-content;
+    margin: 0 auto;
+    color: gold;
+    padding: 10px;
+    background-color: black;
+    border: none;
+    border-radius: 5px;
+}
+
+label {
+    margin: 60px;
+}
+
+.radius-el {
+    margin-left: 50px;
+    padding: 8px;
+    margin-bottom: 5px;
+}
+
+.submit-btn {
+    margin: 0 100px;
+    padding: 10px;
+    background-color: green;
+    border: none;
+}
+
+.submit-btn:hover {
+    background-color: white;
+    color: #4CAF50;
+    transition: all 200ms ease-in;
+}
+
+.sph-el {
+    width: fit-content;
+    margin: 15px auto;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: #f2f2f2;
 }

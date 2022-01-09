@@ -5,6 +5,8 @@ let hoverEL = document.querySelector(".hover-el")
 let passEl = document.querySelector("#pass")
 let submitEl = document.querySelector(".subBtn")
 let formEl = document.querySelector(".form-el")
+let radiusEl = document.querySelector(".radius-el")
+let rSubmitEl = document.querySelector(".submit-btn")
 
 btn1El.addEventListener("click", function() {
     paraEL.textContent = "I'm Right"
@@ -24,8 +26,14 @@ submitEl.addEventListener("click", function() {
         formEl.textContent = "Form Submitted";
 
     } else {
-        alert("incorrect");
+        alert("incorrect password!");
     }
 
 
 });
+
+rSubmitEl.addEventListener("click", function() {
+    let rad = radiusEl.value;
+    let volume = 4 / 3 * Math.PI * rad * rad * rad;
+    document.querySelector('.result').textContent = "The volume of the sphere is " + volume;
+})
