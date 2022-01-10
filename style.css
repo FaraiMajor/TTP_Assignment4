@@ -29,7 +29,6 @@ header {
 
 .btn-section {
     display: flex;
-    align-items: center;
     justify-content: center;
     font-size: 20px;
 }
@@ -65,11 +64,23 @@ header {
 }
 
 .hover-el {
-    background-color: gold;
+    display: block;
     width: fit-content;
-    padding: 10px;
-    border-radius: 5px;
-    margin: 50px 34%;
+    margin: 50px auto 50px;
+    border: #f2f2f2 solid 2px;
+    border-radius: 50px;
+    background-color: black;
+}
+
+img {
+    padding: 5px 170px 0;
+    width: 100px;
+}
+
+.hover-el2 {
+    background-color: gold;
+    padding: 13px;
+    border-radius: 40px;
 }
 
 .hover-el:hover {
@@ -87,7 +98,7 @@ header {
 
 .input {
     width: 100%;
-    padding-right: -20px;
+    margin-bottom: 10px;
     padding: 12px 0;
     border-radius: 4px;
     border: 1px solid #ccc;
@@ -141,7 +152,7 @@ input[type="text"]::placeholder {
 }
 
 label {
-    margin: 60px;
+    margin: 10px;
 }
 
 .radius-el {
